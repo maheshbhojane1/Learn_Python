@@ -20,8 +20,6 @@ print(fruits)
 
 
 
-
-
 marks = [] # we convert string into the int 
 
 m1 = int(input("Enter Your Marks: "))

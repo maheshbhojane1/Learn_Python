@@ -1,0 +1,36 @@
+Dictionary and Sets
+
+They both use to store the data as a container but they are different from List and Tuples
+
+1. Dictionary (dict)
+
+Purpose: Store data as key–value pairs.
+
+Structure: { key: value, key2: value2, ... }
+
+Order: Maintains insertion order (Python 3.7+).
+
+Mutability: Mutable – you can add, update, or remove items.
+
+Keys: Must be immutable (e.g., strings, numbers, tuples).
+
+Values: Can be any type (mutable or immutable).
+
+Duplicates: Keys must be unique, values can repeat.
+
+Lookup Speed: Very fast for accessing data by key (hash-based lookup).
+
+
+2. Set (set)
+
+Purpose: Store unique, unordered elements.
+
+Structure: {element1, element2, ...}
+
+Order: Unordered (no fixed position for elements).
+
+Mutability: The set itself is mutable, but elements must be immutable.
+
+Duplicates: Not allowed – adding a duplicate has no effect.
+
+Usage: Great for removing duplicates or checking membership quickly.
