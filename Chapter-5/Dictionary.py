@@ -15,9 +15,11 @@ print(marks, type(marks))
 
 
 
+
 #  Methods of Dictionary
 
-
+# len()
+print(len(marks))
 
 # clear() remove all items
 
@@ -39,7 +41,7 @@ print((marks.keys()))
 
 
 # pop() remove and returns values for key
-marks.pop(key, default)
+# marks.pop(key, default)
 
 
 # popitems() remove and return last pair

@@ -13,6 +13,10 @@ print(d) # it can not reate the value
 
 # Methods of sets
 
+# len()
+
+print(len(d))
+
 # add()
 
 d.add(10)
@@ -47,4 +51,17 @@ d.remove()
 
 d.copy()
 
+
+# union() it collabe both veribles
+
+e = {2, 1, 3, 1, 2, 4, 5}
+s = {'a', 'b', 'c'}
+
+print(e.union(s))
+
+
+# intersection() it return only that value same in both varible
+
+
+print(e.intersection(s))
 
